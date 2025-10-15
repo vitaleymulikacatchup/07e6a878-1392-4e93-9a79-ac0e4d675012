@@ -7,6 +7,7 @@ import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Twitter, Linkedin } from 'lucide-react';
 
 const assetMap = [
   { "id": "heroImage", "url": "https://images.pexels.com/photos/2953806/pexels-photo-2953806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "A rainy window view from a train in Tallinn, Estonia, capturing an atmospheric and moody landscape." },
@@ -56,13 +57,13 @@ export default function Home() {
               {
                 title: "Digital Society",
                 description: "Estonia is a digital leader with advanced e-Services available to everyone.",
-                icon: Globe,
+                icon: "Globe",
                 button: { text: "Learn More", href: "https://example.com" }
               },
               {
                 title: "Scenic Beauty",
                 description: "Explore stunning landscapes from forests to beaches.",
-                icon: Tree,
+                icon: "Tree",
                 button: { text: "Explore", href: "https://example.com" }
               }
             ]}
