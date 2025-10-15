@@ -30,10 +30,7 @@ export default function Home() {
             title="Explore Estonia"
             description="Discover the beauty and history of Estonia."
             imageSrc={assetMap.find(a => a.id === "heroImage")?.url}
-            buttons={[
-              { text: "Learn More", href: "about" },
-              { text: "Contact", href: "contact" }
-            ]}
+            buttons={[{ text: "Learn More", href: "about" }, { text: "Contact", href: "contact" }]}
             className="bg-blue-50 text-blue-900"
           />
         </div>
@@ -59,13 +56,13 @@ export default function Home() {
               {
                 title: "Digital Society",
                 description: "Estonia is a digital leader with advanced e-Services available to everyone.",
-                icon: "Globe",
+                icon: Globe,
                 button: { text: "Learn More", href: "https://example.com" }
               },
               {
                 title: "Scenic Beauty",
                 description: "Explore stunning landscapes from forests to beaches.",
-                icon: "Tree",
+                icon: Tree,
                 button: { text: "Explore", href: "https://example.com" }
               }
             ]}
@@ -96,7 +93,7 @@ export default function Home() {
                 role: "Tour Specialist",
                 description: "Expert in Estonian culture and history.",
                 imageSrc: assetMap.find(a => a.id === "teamImage")?.url,
-                socialLinks: [{ icon: "Twitter", url: "https://twitter.com" }, { icon: "Linkedin", url: "https://linkedin.com" }]
+                socialLinks: [{ icon: Twitter, url: "https://twitter.com" }, { icon: Linkedin, url: "https://linkedin.com" }]
               },
               {
                 id: "2",
@@ -104,7 +101,7 @@ export default function Home() {
                 role: "Adventure Guide",
                 description: "Passionate about outdoor activities.",
                 imageSrc: assetMap.find(a => a.id === "teamImage")?.url,
-                socialLinks: [{ icon: "Twitter", url: "https://twitter.com" }, { icon: "Linkedin", url: "https://linkedin.com" }]
+                socialLinks: [{ icon: Twitter, url: "https://twitter.com" }, { icon: Linkedin, url: "https://linkedin.com" }]
               }
             ]}
             className="bg-blue-50 text-blue-900"
