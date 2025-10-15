@@ -57,13 +57,13 @@ export default function Home() {
               {
                 title: "Digital Society",
                 description: "Estonia is a digital leader with advanced e-Services available to everyone.",
-                icon: "Globe",
+                icon: Twitter,
                 button: { text: "Learn More", href: "https://example.com" }
               },
               {
                 title: "Scenic Beauty",
                 description: "Explore stunning landscapes from forests to beaches.",
-                icon: "Tree",
+                icon: Linkedin,
                 button: { text: "Explore", href: "https://example.com" }
               }
             ]}
